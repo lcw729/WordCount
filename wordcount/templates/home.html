@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+    <h1 class="home_title"> Wordcount </h1>
+    <a href="{% url 'about' %}" class="about"> ABOUT </a>
+
+    <form action = "{% url 'result' %}">
+        <textarea cols="100" rows="20" name="fulltext" class="textbox"></textarea>
+        <br>
+        <input class="button" type="submit" value="Count!" >
+    </form>
+</body>
+</html>
+

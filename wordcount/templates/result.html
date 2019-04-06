@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic+Coding|Oswald" rel="stylesheet">
+<h1 class="home_title" > Result </h1>
+
+<h3 class="about"> 당신이 입력한 텍스트는 {{total}} 단어로 구성되어 있습니다.</h3>
+<br>
+<h3 class="about"> 입력한 텍스트 </h3>
+<table>
+<tr>
+<td>
+<h4 class="inputtext">{{ inputtext }}<br></h4>
+</td>
+</tr>
+</table>
+<br>
+<h3 class="about"> 단어 카운트 </h3>
+<table class="frequency">
+<tr><th>word</th><th>frequency</th></tr>
+{% for word, frequency in dictionary %}
+<h4 ><tr><td>{{word}}</td><td>{{frequency}}</td></tr></h4>
+{%endfor%}
+</table>
+
+</html>
+

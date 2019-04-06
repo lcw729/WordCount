@@ -1,0 +1,54 @@
+.home_title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin: 30px 30px;
+}
+.about{
+    font-size: 25;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 30px;
+}
+.textbox{
+    margin: 10px 30px;
+}
+.button{
+    margin: 20px 30px;
+    background-color: rgb(80, 200, 255);
+    padding: 5px 10px;
+    border-radius: 20%;
+}
+.frequency{
+    font-size: 25;
+    font-family: 'Oswald', sans-serif;
+    margin: 0.3px 30px;
+}
+.number{
+    font-family: bold;
+}
+.word-frequency{
+    border: solid ;
+    margin: 10px 30px;
+    padding: 10px 10px;
+}
+.text{
+    font-family: 'Nanum Gothic Coding', monospace;
+    letter-spacing: 1px;
+    line-height: 25px;
+    border: solid ;
+    padding: 10px 10px;
+    margin: 10px 500px 10px 30px;
+}
+.inputtext{
+    margin: 10px 30px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+table{
+    margin: 10px 30px;
+    border-collapse :collapse;
+}
+tr{
+    
+    border:1px solid black;
+}
